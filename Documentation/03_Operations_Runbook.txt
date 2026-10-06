@@ -1,0 +1,57 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 03 - OPERATIONS RUNBOOK
+
+1.  Start Application
+
+-   Open the project in Eclipse.
+
+-   Update Maven dependencies.
+
+-   Run the Spring Boot application.
+
+-   Confirm that the application starts without errors.
+
+2.  Health Check
+
+Verify:
+
+GET /actuator/health
+
+Expected status:
+
+UP
+
+3.  API Verification
+
+Verify:
+
+GET /employees
+
+GET /employees/{id}
+
+4.  Common Checks
+
+-   Confirm the application is running.
+
+-   Confirm the configured port.
+
+-   Confirm database connectivity.
+
+-   Check application logs.
+
+5.  Shutdown
+
+Stop the Spring Boot application from Eclipse or the running process.
+
+6.  Incident Procedure
+
+7.  Check application logs.
+
+8.  Check health endpoint.
+
+9.  Check database connectivity.
+
+10. Reproduce the failed API request.
+
+11. Record the issue and resolution.

@@ -1,0 +1,48 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 08 - FAQ
+
+Q1. What is an API?
+
+An API is an interface that allows applications to communicate with each
+other.
+
+Q2. What is REST?
+
+REST is an architectural style commonly used to build web APIs.
+
+Q3. What does GET do?
+
+GET retrieves data.
+
+Q4. What does POST do?
+
+POST is commonly used to create a resource.
+
+Q5. What does PUT do?
+
+PUT is commonly used to update a resource.
+
+Q6. What does DELETE do?
+
+DELETE removes a resource.
+
+Q7. What is 200 OK?
+
+It indicates that a request was successfully processed.
+
+Q8. What is 201 Created?
+
+It indicates that a new resource was created.
+
+Q9. What is 404 Not Found?
+
+It indicates that the requested resource could not be found.
+
+Q10. What is 500 Internal Server Error?
+
+It indicates an unexpected server-side error.
+
+Q11. How can application health be checked?
+
+Use the Spring Boot Actuator health endpoint.

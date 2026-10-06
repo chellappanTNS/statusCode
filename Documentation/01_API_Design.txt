@@ -1,0 +1,66 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 01 - API DESIGN
+
+1.  Purpose
+
+This document describes the API design for the Employee Service.
+
+2.  Base URL
+
+http://localhost:8080
+
+3.  Employee Endpoints
+
+4.  GET /employees
+
+Purpose: Retrieve all employees.
+
+Success: 200 OK
+
+Response: JSON array of employee objects.
+
+2.  GET /employees/{id}
+
+Purpose: Retrieve an employee by ID.
+
+Success: 200 OK
+
+Failure: 404 Not Found when the employee does not exist.
+
+3.  POST /employees
+
+Purpose: Create a new employee.
+
+Success: 201 Created
+
+Request body: Employee JSON object.
+
+4.  PUT /employees/{id}
+
+Purpose: Update an existing employee.
+
+Success: 200 OK
+
+Failure: 404 Not Found when the employee does not exist.
+
+5.  DELETE /employees/{id}
+
+Purpose: Delete an employee.
+
+Success: 204 No Content
+
+Failure: 404 Not Found when the employee does not exist.
+
+4.  Validation
+
+Required fields must be validated before processing the request.
+
+5.  Error Handling
+
+Errors should return an appropriate HTTP status code and a meaningful
+response message.
+
+6.  Verification
+
+Verify each endpoint using Postman.

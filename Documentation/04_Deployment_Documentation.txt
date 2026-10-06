@@ -1,0 +1,58 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 04 - DEPLOYMENT DOCUMENTATION
+
+1.  Prerequisites
+
+-   Java 21
+
+-   Maven
+
+-   Required database
+
+-   Application configuration
+
+2.  Build
+
+Run:
+
+mvn clean package
+
+3.  Output
+
+The executable JAR is generated in the target directory.
+
+4.  Run
+
+Run the generated Spring Boot JAR using:
+
+java -jar .jar
+
+5.  Configuration
+
+Configure:
+
+-   Server port
+
+-   Database URL
+
+-   Database username
+
+-   Database password
+
+-   Environment-specific properties
+
+6.  Verification
+
+After deployment:
+
+-   Check application startup logs.
+
+-   Call the health endpoint.
+
+-   Test the main API endpoints.
+
+7.  Rollback
+
+If the deployment fails, stop the failed version and restore the
+previously verified application version.

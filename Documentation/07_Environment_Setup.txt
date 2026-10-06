@@ -1,0 +1,47 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 07 - ENVIRONMENT SETUP
+
+1.  Required Software
+
+-   JDK 21
+
+-   Eclipse IDE
+
+-   Maven
+
+-   Postman
+
+-   Database server/client as required
+
+2.  Project Setup
+
+3.  Import the project into Eclipse.
+
+4.  Confirm Java 21 is selected.
+
+5.  Update Maven dependencies.
+
+6.  Check application configuration.
+
+7.  Run the application.
+
+8.  API Testing Setup
+
+-   Open Postman.
+
+-   Set the local base URL.
+
+-   Import the API collection if available.
+
+-   Execute the requests.
+
+4.  Validation
+
+Confirm:
+
+-   Application starts successfully.
+
+-   API endpoint responds.
+
+-   Health endpoint reports UP.

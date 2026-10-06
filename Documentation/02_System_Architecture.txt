@@ -1,0 +1,53 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 02 - SYSTEM ARCHITECTURE
+
+1.  Overview
+
+The Employee Service follows a layered REST API architecture.
+
+2.  Layers
+
+Presentation/API Layer
+
+-   Receives HTTP requests.
+
+-   Returns HTTP responses.
+
+Controller Layer
+
+-   Maps endpoints to application methods.
+
+-   Validates request flow.
+
+Service Layer
+
+-   Contains business logic.
+
+-   Coordinates operations.
+
+Repository/Data Layer
+
+-   Handles persistence and database operations.
+
+3.  Request Flow
+
+Client -> REST Controller -> Service -> Repository -> Database
+
+4.  Response Flow
+
+Database -> Repository -> Service -> Controller -> Client
+
+5.  Technologies
+
+-   Java
+
+-   Spring Boot
+
+-   REST API
+
+-   Maven
+
+-   SQL database
+
+-   Postman for API testing

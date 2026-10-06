@@ -1,0 +1,67 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 10 - JIRA TRACEABILITY
+
+1.  Purpose
+
+This document links development work items with technical documentation.
+
+2.  Traceability Structure
+
+Jira Ticket -> Requirement -> API/Code Change -> Documentation ->
+Testing
+
+3.  Example
+
+Ticket:
+
+EMP-101
+
+Requirement:
+
+Create an employee retrieval API.
+
+Documentation:
+
+01_API_Design.txt
+
+Testing:
+
+Postman GET /employees
+
+4.  Ticket Linking Rules
+
+-   Every significant feature should have a Jira ticket.
+
+-   The relevant documentation should reference the ticket.
+
+-   Completed implementation should be verified through testing.
+
+-   Documentation must be updated when the ticket changes the API or
+    system behavior.
+
+5.  Verification Checklist
+
+[ ] Jira ticket created
+
+[ ] Requirement documented
+
+[ ] API design updated
+
+[ ] Code implemented
+
+[ ] API tested
+
+[ ] Documentation updated
+
+[ ] Ticket linked to documentation
+
+6.  Traceability Table
+
+EMP-101 | Employee API | 01_API_Design.txt | Postman verification
+
+EMP-102 | System architecture | 02_System_Architecture.txt |
+Architecture review
+
+EMP-103 | Operations | 03_Operations_Runbook.txt | Operational
+verification

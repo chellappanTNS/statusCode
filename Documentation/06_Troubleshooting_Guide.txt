@@ -1,0 +1,71 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 06 - TROUBLESHOOTING GUIDE
+
+1.  Application Does Not Start
+
+Check:
+
+-   Java version
+
+-   Maven dependencies
+
+-   Port availability
+
+-   Application logs
+
+2.  404 Not Found
+
+Check:
+
+-   URL
+
+-   HTTP method
+
+-   Controller mapping
+
+-   Application base path
+
+3.  500 Internal Server Error
+
+Check:
+
+-   Stack trace
+
+-   Service logic
+
+-   Database connectivity
+
+-   Invalid input
+
+4.  Database Connection Failure
+
+Check:
+
+-   Database server status
+
+-   JDBC URL
+
+-   Username/password
+
+-   Driver dependency
+
+5.  Postman Request Failure
+
+Check:
+
+-   Base URL
+
+-   Port
+
+-   HTTP method
+
+-   Request body
+
+-   Headers
+
+6.  Actuator Health DOWN
+
+Check the individual component shown in:
+
+GET /actuator/health

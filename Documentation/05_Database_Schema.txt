@@ -1,0 +1,41 @@
+EXERCISE 29 - DOCUMENTATION
+
+DOCUMENT 05 - DATABASE SCHEMA
+
+1.  Employee Table
+
+Suggested columns:
+
+-   id: Employee identifier
+
+-   name: Employee name
+
+-   department: Employee department
+
+-   salary: Employee salary
+
+2.  Primary Key
+
+The id column uniquely identifies an employee.
+
+3.  Data Integrity
+
+-   Primary key must be unique.
+
+-   Required fields must not contain invalid values.
+
+-   Relationships, if introduced, should use appropriate foreign keys.
+
+4.  CRUD Mapping
+
+Create -> INSERT
+
+Read -> SELECT
+
+Update -> UPDATE
+
+Delete -> DELETE
+
+5.  Verification
+
+Verify table structure and sample records before testing API operations.
